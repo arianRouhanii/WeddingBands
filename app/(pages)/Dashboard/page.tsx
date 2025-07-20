@@ -80,7 +80,7 @@ export default function Dashboard() {
                     </div>
                 </div>
             </div>
-            <div className="w-full p-3 md:p-8 gap-6 xl:gap-0  h-1/12 items-center flex  flex-row">
+            <div className="w-full px-3 pt-3 md:px-7.5 md:pt-11 gap-6 xl:gap-0  h-1/12 items-center flex  flex-row">
                 <button id="listbtn" className="h-6 flex xl:hidden flex-col aspect-square justify-between items-center">
                     <div className="bg-black w-full h-1"></div>
                     <div className="bg-black w-full h-1"></div>
@@ -96,7 +96,7 @@ export default function Dashboard() {
                     </div>
                 </div>
             </div>
-            <div className="w-full h-11/12 p-0 md:p-8  items-center flex flex-row">
+            <div className="w-full h-11/12 p-0 md:p-7.5  items-center flex flex-row">
                 <div className="w-1/6 relative text-sm 2xl:text-lg  h-full hidden xl:flex flex-col gap-10">
                     <button className="bg-white w-1/2 flex flex-row rounded-full gap-4 p-2 ">
                         <div className="bg-black rounded-full h-full aspect-square text-white"><p>+</p></div>
@@ -128,7 +128,7 @@ export default function Dashboard() {
                         <p>1200 MB / ...</p>
                     </div>
                 </div>
-                <div className=" w-full xl:w-5/6 h-full bg-white rounded-4xl px-3 py-10 md:px-10">
+                <div className=" w-full xl:w-5/6 h-full bg-white rounded-4xl px-3 py-11 md:px-9">
                     {pageState == 1 && <HomePage setPageState={setPageState} />}
                     {pageState == 2 && <Drive setPageState={setPageState} />}
                     {pageState == 3 && <Trash setPageState={setPageState} />}

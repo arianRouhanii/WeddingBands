@@ -1,8 +1,21 @@
-import Image from "next/image"
+import { useState } from "react";
 interface Stage2Props {
     setPageState: (page: number) => void;
 }
 export default function Drive({ setPageState }: Stage2Props) {
+    const [selectedDiv, setSelectedDiv] = useState<number | null>(null);
+    const [divs, setDivs] = useState([1, 2]);
+
+    const handleDivClick = (divNumber: number) => {
+        setSelectedDiv(divNumber);
+    };
+
+    const handleDestroyClick = () => {
+        if (selectedDiv !== null) {
+            setDivs(divs.filter(num => num !== selectedDiv));
+            setSelectedDiv(null);
+        }
+    };
     return (
         <div className="w-full text-[#06213D] gap-5 md:gap-10 flex flex-col">
             <button onClick={() => setPageState(2)} className="hidden"></button>
@@ -13,16 +26,43 @@ export default function Drive({ setPageState }: Stage2Props) {
                     <svg viewBox="0 0 24 24" fill="none" className="w-7 h-7"><g id="SVGRepo_bgCarrier"></g><g id="SVGRepo_tracerCarrier" ></g><g id="SVGRepo_iconCarrier"> <path fillRule="evenodd" clipRule="evenodd" d="M3.75 4.5L4.5 3.75H10.5L11.25 4.5V10.5L10.5 11.25H4.5L3.75 10.5V4.5ZM5.25 5.25V9.75H9.75V5.25H5.25ZM12.75 4.5L13.5 3.75H19.5L20.25 4.5V10.5L19.5 11.25H13.5L12.75 10.5V4.5ZM14.25 5.25V9.75H18.75V5.25H14.25ZM3.75 13.5L4.5 12.75H10.5L11.25 13.5V19.5L10.5 20.25H4.5L3.75 19.5V13.5ZM5.25 14.25V18.75H9.75V14.25H5.25ZM12.75 13.5L13.5 12.75H19.5L20.25 13.5V19.5L19.5 20.25H13.5L12.75 19.5V13.5ZM14.25 14.25V18.75H18.75V14.25H14.25Z" fill="#080341"></path> </g></svg>
                 </div>
             </div>
-            <hr className="text-[#EBEBEB] text-2xl " />
-            <div className="flex flex-row gap-8">
-                <button className="w-1/8 md:w-1/16 gap-3 flex flex-col">
-                    <div className=" aspect-square w-full"><Image alt="folder" src={'/folder.png'} width={500} height={500}></Image></div>
-                    <p className="text-center"> folder name </p> 
-                </button>
-                <button className="w-1/8 md:w-1/16 gap-3 flex flex-col">
-                    <div className=" aspect-square w-full"><Image alt="folder" src={'/folder.png'} width={500} height={500}></Image></div>
-                    <p className="text-center"> folder name </p>
-                </button>
+            <div className="h-[20px]">
+                {selectedDiv !== null && (
+                    <div className="flex text-xs md:text-lg flex-row gap-2 md:gap-6 items-center">
+                        <p className="font-bold">1 selected</p>
+                        <button
+                            className="px-4 py-2 bg-blue-100 flex flex-row gap-1  rounded-full"
+                            onClick={handleDestroyClick}
+                        >
+                           Delete
+                        </button>
+                        <button
+                            className="px-4 py-2 bg-blue-100  rounded-full"
+                        >
+                            ...
+                        </button>
+                    </div>
+                )}
+            </div>
+            <div className="bg-[#EBEBEB] text-2xl h-1" ></div>
+            <div className="flex flex-row gap-7.5">
+                <div className=" gap-3 flex flex-row">
+                    {divs.map(num => (
+                        <div
+                            key={num}
+                            className={` w-[70] md:w-[130px] px-3 rounded-lg ${selectedDiv === num ? 'bg-blue-100' : 'bg-white'}`}
+                            onClick={() => handleDivClick(num)}
+                        >
+                            <div className=" aspect-square w-full">
+                                <svg viewBox="0 0 65 65" fill="none">
+                                    <path d="M2.66602 41.3867V11.6978C2.66602 10.032 4.02962 8.63281 5.6955 8.63281H21.6925C22.8715 8.63281 23.9425 9.34413 24.4342 10.4157L26.0476 13.9581C26.5393 15.0297 27.6103 15.7422 28.7893 15.7422H56.4258C58.0917 15.7422 59.4141 17.0658 59.4141 18.7318V46.1998C59.4141 47.8656 58.0917 49.2578 56.4258 49.2578H5.6955C5.61577 49.2578 5.53706 49.2121 5.45898 49.206V54.9707H5.41557C5.41557 55.7324 4.79642 56.321 4.04079 56.321C3.28517 56.321 2.66602 55.6904 2.66602 54.9348V41.3867Z" fill="#0074A8" />
+                                    <path d="M4.04079 56.321C4.79642 56.321 5.41557 55.7324 5.41557 54.9707H5.45898V26.6831C5.45898 25.0171 6.77155 23.6133 8.43743 23.6133H59.1678C60.8337 23.6133 62.207 25.0171 62.207 26.6831V57.0489C62.207 58.7148 60.8337 60.0488 59.1678 60.0488H8.43743C8.2616 60.0488 8.08945 60.0412 7.92188 60.0123C7.7138 60.0411 7.50166 60.0611 7.28559 60.0611C4.74144 60.0611 2.69801 58.0008 2.69801 55.4567C2.69801 55.3889 2.70258 55.3224 2.70537 55.2553C2.85099 55.8604 3.39536 56.321 4.04079 56.321Z" fill="#59CAFC" />
+                                </svg>
+                            </div>
+                            <p className="text-center"> folder name </p>
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     )
