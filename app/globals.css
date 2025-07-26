@@ -28,3 +28,10 @@ body {
 button{
   cursor: pointer;
 }
+
+* {
+  transition-duration: 400ms;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}

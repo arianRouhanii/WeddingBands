@@ -1,8 +1,8 @@
 import { useState } from "react";
-interface Stage2Props {
+interface Stage3Props {
     setPageState: (page: number) => void;
 }
-export default function Drive({ setPageState }: Stage2Props) {
+export default function Drive({ setPageState }: Stage3Props) {
     const [selectedDiv, setSelectedDiv] = useState<number | null>(null);
     const [divs, setDivs] = useState([1, 2]);
 
@@ -17,8 +17,9 @@ export default function Drive({ setPageState }: Stage2Props) {
         }
     };
     return (
+
         <div className="w-full text-[#06213D] gap-5 md:gap-10 flex flex-col">
-            <button onClick={() => setPageState(2)} className="hidden"></button>
+            <button onClick={() => setPageState(3)} className="hidden"></button>
             <div className="w-full flex flex-row justify-between">
                 <h2 className="text-xl font-bold  text-[#0074A8]"> My files  </h2>
                 <div className="flex flex-row gap-2">
@@ -28,13 +29,13 @@ export default function Drive({ setPageState }: Stage2Props) {
             </div>
             <div className="h-[20px]">
                 {selectedDiv !== null && (
-                    <div className="flex text-xs md:text-lg flex-row gap-2 md:gap-6 items-center">
+                    <div className="flex text-xs md:text-sm flex-row gap-2 md:gap-6 items-center">
                         <p className="font-bold">1 selected</p>
                         <button
                             className="px-4 py-2 bg-blue-100 flex flex-row gap-1  rounded-full"
                             onClick={handleDestroyClick}
                         >
-                           Delete
+                            Delete
                         </button>
                         <button
                             className="px-4 py-2 bg-blue-100  rounded-full"
@@ -46,11 +47,11 @@ export default function Drive({ setPageState }: Stage2Props) {
             </div>
             <div className="bg-[#EBEBEB] text-2xl h-1" ></div>
             <div className="flex flex-row gap-7.5">
-                <div className=" gap-3 flex flex-row">
+                <div className=" gap-3  flex flex-row">
                     {divs.map(num => (
                         <div
                             key={num}
-                            className={` w-[70] md:w-[130px] px-3 rounded-lg ${selectedDiv === num ? 'bg-blue-100' : 'bg-white'}`}
+                            className={` w-[70] md:w-[110px] md:h-[110px] px-3 rounded-lg ${selectedDiv === num ? 'bg-blue-100' : 'bg-white'}`}
                             onClick={() => handleDivClick(num)}
                         >
                             <div className=" aspect-square w-full">

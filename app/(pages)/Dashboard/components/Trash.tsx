@@ -29,7 +29,7 @@ export default function Trash({ setPageState }: Stage3Props) {
             </div>
             <div className="h-[20px]">
                 {selectedDiv !== null && (
-                    <div className="flex text-xs md:text-lg flex-row gap-2 md:gap-6 items-center">
+                    <div className="flex text-xs md:text-sm flex-row gap-2 md:gap-6 items-center">
                         <p className="font-bold">1 selected</p>
                         <button
                             className="px-4 py-2 bg-blue-100 flex flex-row gap-1  rounded-full"
@@ -51,7 +51,7 @@ export default function Trash({ setPageState }: Stage3Props) {
                     {divs.map(num => (
                         <div
                             key={num}
-                            className={` w-[70] md:w-[130px] px-3 rounded-lg ${selectedDiv === num ? 'bg-blue-100' : 'bg-white'}`}
+                            className={` w-[70] md:w-[110px] md:h-[110px] px-3 rounded-lg ${selectedDiv === num ? 'bg-blue-100' : 'bg-white'}`}
                             onClick={() => handleDivClick(num)}
                         >
                             <div className=" aspect-square w-full">
