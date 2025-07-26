@@ -59,6 +59,9 @@ export default function Editor() {
     const handleRange1Change = (e: React.ChangeEvent<HTMLInputElement>) => {
         setRange1Value(Number(e.target.value))
     }
+
+    const CategoriesArray = ['Rings', 'Eaarrings', 'Necklaces', 'Bracelets', 'Watches', 'Other']
+    const FitOptionsArray = ['Contain', 'Cover', 'Fill', 'Scale down']
     return (
         <main className="text-[#06213D] h-[100vh] text-xs flex flex-col bg-[#EBEBEB]">
             <div className="w-full justify-between p-2.5 md:pt-11 gap-6 xl:gap-0  h-1/12 items-center flex  flex-row">
@@ -66,10 +69,10 @@ export default function Editor() {
                     <Image width={1000} height={1000} alt="" src={'/logo.png'}></Image>
                 </Link>
                 <div className="w-1/8 pl-8 flex flex-row gap-2" dir="rtl">
-                    <div className="bg-red-400 rounded-full w-8 aspect-square text-white justify-center flex items-center">KO</div>
+                    <button className="bg-red-400 rounded-full w-8 aspect-square text-white justify-center flex items-center">KO</button>
                     <div className="flex text-sm font-bold flex-row gap-0.5">
                         <button className="bg-blue-400 rounded-r-xl h-8 px-4 text-white">+</button>
-                        <button className="bg-blue-400 rounded-l-xl h-8 px-4 text-white">Save</button>
+                        <button className="bg-blue-400 rounded-l-xl h-8 px-5 text-white">Save</button>
                     </div>
                 </div>
             </div>
@@ -78,17 +81,14 @@ export default function Editor() {
                     <div className="flex flex-row gap-2"><button className="bg-black" >__</button><p className="font-bold">Project settings</p></div>
                     <div className="w-full flex flex-col gap-3">
                         <Image className="rounded-lg" alt="" src={'/FilePic.png'} width={1000} height={1000}></Image>
-                        <button className="bg-blue-400 rounded-full w-full py-1 text-white">Update Poster</button>
+                        <button className="bg-blue-400 rounded-full w-full py-1.5 font-bold text-white">Update Poster</button>
                     </div>
                     <div className="flex flex-col gap-3">
                         <textarea className="w-full outline-0 border-[1px] border-gray-300 bg-white p-2 text-sm resize-none h-[100px] rounded-sm" placeholder="Description"></textarea>
                         <select className="bg-white outline-0 border-[1px] border-gray-300 w-full p-2 text-sm rounded-sm">
-                            <option value="">Rings</option>
-                            <option value="">Earrings</option>
-                            <option value="">Necklaces</option>
-                            <option value="">Bracelets</option>
-                            <option value="">Watches</option>
-                            <option value="">Other</option>
+                            {CategoriesArray.map((item, index) => (
+                                <option key={index} value={item.toLocaleLowerCase()}>{item}</option>
+                            ))}
                         </select>
                         <input type="text" placeholder="Add tags" className="bg-white outline-0 border-[1px] border-gray-300 w-full p-2 text-sm rounded-lg"></input>
                     </div>
@@ -292,10 +292,9 @@ export default function Editor() {
                                 </label>
                                 <p>fit</p>
                                 <select disabled={!isChecked} className={` ${isChecked ? 'opacity-100' : ' opacity-50'} bg-white border-[1px] border-gray-300 outline-0 w-full p-2 text-sm rounded-sm `}>
-                                    <option value="">Contain</option>
-                                    <option value="">Cover</option>
-                                    <option value="">Fill</option>
-                                    <option value="">Scale down</option>
+                                    {FitOptionsArray.map((item, index) => (
+                                        <option key={index} value={item.toLocaleLowerCase()}>{item}</option>
+                                    ))}
                                 </select>
                                 <p>Size</p>
                                 <div className="flex flex-row gap-2">
