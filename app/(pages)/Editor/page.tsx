@@ -1,4 +1,3 @@
-// app/page.tsx or wherever Editor is defined
 'use client'
 import React, { useState } from 'react'
 import Topbar from './components/Topbar'
@@ -15,7 +14,7 @@ export default function Editor() {
       <Topbar />
       <div className="w-full h-11/12 py-7.5 pr-2.5 pl-2.5 items-center flex flex-row">
         <Sidebar />
-        <div className="w-6/8 h-full bg-blue-200 rounded-lg cursor-grab" />
+        <div className="w-6/8 h-full bg-blue-200 rounded-lg cursor-grab items-center justify-center flex" >3D model</div>
         <TabPanel selectedOption={selectedOption} setSelectedOption={setSelectedOption} />
       </div>
     </main>

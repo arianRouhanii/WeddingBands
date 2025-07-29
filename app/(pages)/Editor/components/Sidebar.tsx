@@ -4,7 +4,6 @@ export default function Sidebar() {
   return (
     <div className="w-1/8 relative text-sm pr-2.5 h-full hidden xl:flex flex-col gap-10">
       <div className="flex flex-row gap-2">
-        <button className="bg-blue-400">__</button>
         <p className="font-bold">Project settings</p>
       </div>
       <div className="w-full flex flex-col gap-3">
