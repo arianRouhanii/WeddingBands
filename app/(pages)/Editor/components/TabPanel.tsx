@@ -1,6 +1,9 @@
-// components/TabPanel.tsx
 'use client'
-import React,{JSX} from 'react'
+import React, { JSX } from 'react'
+import TabMetal from './tabs/TabMetal'
+import TabGems from './tabs/TabGems'
+import TabCeramics from './tabs/TabCeramics'
+import TabPearls from './tabs/TabPearls'
 import TabEnvironment from './tabs/TabEnviroment'
 import TabGemEnv from './tabs/TabGemEnv'
 import TabBackground from './tabs/TabBackground'
@@ -11,12 +14,16 @@ import TabPoses from './tabs/TabPoses'
 import TabExport from './tabs/TabExport'
 import TabBranding from './tabs/TabBranding'
 import TabAdvanced from './tabs/TabAdvanced'
-type TabOption =  | 'Enviroment'  | 'GemEnv'  | 'Background'  | 'Scene'  | 'ModelStage'  | 'Ground'  | 'Poses'  | 'Export'  | 'Branding'  | 'Advanced'
+type TabOption = | 'Metal' | 'Gems' | 'Ceramics' | 'Pearls' | 'Enviroment' | 'GemEnv' | 'Background' | 'Scene' | 'ModelStage' | 'Ground' | 'Poses' | 'Export' | 'Branding' | 'Advanced'
 interface TabPanelProps {
   selectedOption: TabOption
   setSelectedOption: React.Dispatch<React.SetStateAction<TabOption>>
 }
 const tabIcons: { id: TabOption; label: string }[] = [
+  { id: 'Metal', label: 'Metals' },
+  { id: 'Gems', label: 'Gems' },
+  { id: 'Ceramics', label: 'Ceramics' },
+  { id: 'Pearls', label: 'Pearls' },
   { id: 'Enviroment', label: 'Environments' },
   { id: 'GemEnv', label: 'Gem Environments' },
   { id: 'Background', label: 'Backgrounds' },
@@ -34,6 +41,22 @@ const getIcon = (id: string, isActive: boolean) => {
   const color = isActive ? '#3B82F6' : '#9CA3AF'
 
   const icons: { [key: string]: JSX.Element } = {
+    Metal: (
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M12 2L2 7h20L12 2z" /><path d="M2 7v7c0 5 10 9 10 9s10-4 10-9V7" /></svg>
+    ),
+    Gems: (
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M12 2L2 7h20L12 2z" /><path d="M2 7v7c0 5 10 9 10 9s10-4 10-9V7" /></svg>
+    ),
+    Ceramics: (
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M12 2L2 7h20L12 2z" /><path d="M2 7v7c0 5 10 9 10 9s10-4 10-9V7" /></svg>
+    ),
+    Pearls: (
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M12 2L2 7h20L12 2z" /><path d="M2 7v7c0 5 10 9 10 9s10-4 10-9V7" /></svg>
+    ),
     Enviroment: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 2L2 7h20L12 2z" /><path d="M2 7v7c0 5 10 9 10 9s10-4 10-9V7" /></svg>
@@ -83,6 +106,10 @@ export default function TabPanel({ selectedOption, setSelectedOption }: TabPanel
   return (
     <div className="w-1/8 relative text-sm h-full flex flex-row">
       <div className="w-9/10 select-none bg-[#EBEBEB] overflow-y-scroll">
+        {selectedOption === 'Metal' && <TabMetal />}
+        {selectedOption === 'Gems' && <TabGems />}
+        {selectedOption === 'Ceramics' && <TabCeramics />}
+        {selectedOption === 'Pearls' && <TabPearls />}
         {selectedOption === 'Enviroment' && <TabEnvironment />}
         {selectedOption === 'GemEnv' && <TabGemEnv />}
         {selectedOption === 'Background' && <TabBackground />}
@@ -94,7 +121,7 @@ export default function TabPanel({ selectedOption, setSelectedOption }: TabPanel
         {selectedOption === 'Branding' && <TabBranding />}
         {selectedOption === 'Advanced' && <TabAdvanced />}
       </div>
-      <div className="w-1/10 flex flex-col p-1 gap-5 items-center">
+      <div className="w-1/10 flex flex-col overflow-scroll p-1 gap-5 items-center">
         {tabIcons.map(({ id, label }) => (
           <button
             key={id}

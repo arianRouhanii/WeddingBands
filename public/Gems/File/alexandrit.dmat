@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "version": 4.6,
+    "type": "DiamondMaterial",
+    "generator": "DiamondMaterial.toJSON"
+  },
+  "name": "alexandrit",
+  "uuid": "3d93f01d-7fcc-4794-bd10-c4b6e70a5251",
+  "color": 775395,
+  "envMapIntensity": 1,
+  "envMapIndex": 1,
+  "envMapRotationOffset": 0,
+  "dispersion": 0,
+  "squashFactor": 0.98,
+  "geometryFactor": 0.5,
+  "gammaFactor": 1,
+  "absorptionFactor": 1.4000000000000001,
+  "reflectivity": 0.5,
+  "refractiveIndex": 1.9100000000000001,
+  "rayBounces": 5,
+  "diamondOrientedEnvMap": 1,
+  "boostFactors": {
+    "x": 1.9,
+    "y": 1,
+    "z": 1.4,
+    "isVector3": true
+  },
+  "transmission": 0,
+  "isDiamondMaterialParameters": true,
+  "type": "DiamondMaterial",
+  "userData": {
+    "separateEnvMapIntensity": true,
+    "_thinFilmLayer": {
+      "hasThinFilm": true,
+      "baseLayerFactors": [
+        0.3,
+        0.6,
+        1,
+        0.9
+      ],
+      "noiseLayerFactors": [
+        0.7,
+        0.5,
+        0.9,
+        0.7
+      ],
+      "colorNoiseParams": [
+        0.19999999999999998,
+        0.5,
+        0.5,
+        0.7
+      ],
+      "filmFactor": 0.6585554695277072
+    },
+    "uuid": "3d93f01d-7fcc-4794-bd10-c4b6e70a5251"
+  }
+}

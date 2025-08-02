@@ -55,7 +55,7 @@ export default function TabBranding() {
               onClick={handleDelete}
               className="absolute -top-1 -right-1 bg-gray-300 text-white rounded-full w-5 h-5 text-xs"
             >
-              ×
+              x
             </button>
           </div>
         )}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "version": 4.6,
+    "type": "DiamondMaterial",
+    "generator": "DiamondMaterial.toJSON"
+  },
+  "name": "Gem",
+  "uuid": "5f7c8367-63fd-4c29-82a7-7dcf23d84ff4",
+  "color": 14263787,
+  "envMapIntensity": 1.03,
+  "envMapIndex": 0,
+  "envMapRotationOffset": 0,
+  "dispersion": 0,
+  "squashFactor": 0.98,
+  "geometryFactor": 0.5,
+  "gammaFactor": 1,
+  "absorptionFactor": 1.3,
+  "reflectivity": 0.3,
+  "refractiveIndex": 1.5500000000000003,
+  "rayBounces": 5,
+  "diamondOrientedEnvMap": 0,
+  "boostFactors": {
+    "x": 1,
+    "y": 1,
+    "z": 1,
+    "isVector3": true
+  },
+  "transmission": 0,
+  "isDiamondMaterialParameters": true,
+  "type": "DiamondMaterial",
+  "userData": {
+    "separateEnvMapIntensity": true,
+    "rootPath": "https://playground.ijewel3d.com/assets/materials/gem/gem-gem-amethist.dmat",
+    "cloneId": "0_1",
+    "cloneCount": 0,
+    "uuid": "5f7c8367-63fd-4c29-82a7-7dcf23d84ff4"
+  }
+}

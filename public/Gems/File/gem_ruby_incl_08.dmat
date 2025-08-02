@@ -1,0 +1,447 @@
+{
+  "metadata": {
+    "version": 4.6,
+    "type": "DiamondMaterial",
+    "generator": "DiamondMaterial.toJSON"
+  },
+  "name": "diamond",
+  "uuid": "3bc30a97-1fa4-4e57-8e3b-8327bb8576ae",
+  "color": 15214187,
+  "envMapIntensity": 1,
+  "envMapIndex": 0,
+  "envMapRotationOffset": 0,
+  "dispersion": 0,
+  "squashFactor": 0.98,
+  "geometryFactor": 0.5,
+  "gammaFactor": 1,
+  "absorptionFactor": 1.3800000000000001,
+  "reflectivity": 0.5,
+  "refractiveIndex": 1.6799999999999997,
+  "rayBounces": 3,
+  "diamondOrientedEnvMap": 0,
+  "boostFactors": {
+    "x": 1.3,
+    "y": 0.21071410655975342,
+    "z": 0.6198205518722535,
+    "isVector3": true
+  },
+  "transmission": 0,
+  "isDiamondMaterialParameters": true,
+  "userData": {
+    "separateEnvMapIntensity": true,
+    "gltfExtensions": {
+      "WEBGI_materials_diamond": {
+        "metadata": {
+          "version": 4.6,
+          "type": "DiamondMaterial",
+          "generator": "DiamondMaterial.toJSON"
+        },
+        "name": "diamond",
+        "uuid": "3bc30a97-1fa4-4e57-8e3b-8327bb8576ae",
+        "color": 15214187,
+        "envMapIntensity": 1,
+        "envMapIndex": 0,
+        "envMapRotationOffset": 0,
+        "dispersion": 0,
+        "squashFactor": 0.98,
+        "geometryFactor": 0.5,
+        "gammaFactor": 1,
+        "absorptionFactor": 1.3800000000000001,
+        "reflectivity": 0.5,
+        "refractiveIndex": 1.6799999999999997,
+        "rayBounces": 3,
+        "diamondOrientedEnvMap": 0,
+        "boostFactors": {
+          "x": 1.3,
+          "y": 0.21071410655975342,
+          "z": 0.6198205518722535,
+          "isVector3": true
+        },
+        "transmission": 0,
+        "isDiamondMaterialParameters": true,
+        "userData": {
+          "separateEnvMapIntensity": true,
+          "gltfExtensions": {
+            "WEBGI_materials_diamond": {
+              "metadata": {
+                "version": 4.6,
+                "type": "DiamondMaterial",
+                "generator": "DiamondMaterial.toJSON"
+              },
+              "name": "diamond",
+              "uuid": "3bc30a97-1fa4-4e57-8e3b-8327bb8576ae",
+              "color": 15214187,
+              "envMapIntensity": 1,
+              "envMapIndex": 0,
+              "envMapRotationOffset": 0,
+              "dispersion": 0,
+              "squashFactor": 0.98,
+              "geometryFactor": 0.5,
+              "gammaFactor": 1,
+              "absorptionFactor": 1.3800000000000001,
+              "reflectivity": 0.5,
+              "refractiveIndex": 1.6799999999999997,
+              "rayBounces": 3,
+              "diamondOrientedEnvMap": 0,
+              "boostFactors": {
+                "x": 1.3,
+                "y": 0.21071410655975342,
+                "z": 0.6198205518722535,
+                "isVector3": true
+              },
+              "transmission": 0,
+              "isDiamondMaterialParameters": true,
+              "userData": {
+                "separateEnvMapIntensity": true,
+                "gltfExtensions": {
+                  "WEBGI_materials_diamond": {
+                    "metadata": {
+                      "version": 4.6,
+                      "type": "DiamondMaterial",
+                      "generator": "DiamondMaterial.toJSON"
+                    },
+                    "name": "diamond",
+                    "uuid": "3bc30a97-1fa4-4e57-8e3b-8327bb8576ae",
+                    "color": 13700948,
+                    "envMapIntensity": 1,
+                    "envMapIndex": 0,
+                    "envMapRotationOffset": 0,
+                    "dispersion": 0,
+                    "squashFactor": 0.98,
+                    "geometryFactor": 0.5,
+                    "gammaFactor": 1,
+                    "absorptionFactor": 1.3800000000000001,
+                    "reflectivity": 0.5,
+                    "refractiveIndex": 1.6799999999999997,
+                    "rayBounces": 3,
+                    "diamondOrientedEnvMap": 0,
+                    "boostFactors": {
+                      "x": 1.3,
+                      "y": 0.21071410655975342,
+                      "z": 0.6198205518722535,
+                      "isVector3": true
+                    },
+                    "transmission": 0,
+                    "isDiamondMaterialParameters": true,
+                    "userData": {
+                      "separateEnvMapIntensity": true,
+                      "gltfExtensions": {
+                        "WEBGI_materials_diamond": {
+                          "metadata": {
+                            "version": 4.6,
+                            "type": "DiamondMaterial",
+                            "generator": "DiamondMaterial.toJSON"
+                          },
+                          "name": "diamond",
+                          "uuid": "9c368899-cc5f-4803-a172-2bcbb201e711",
+                          "color": 15752076,
+                          "envMapIntensity": 1,
+                          "envMapIndex": 0,
+                          "envMapRotationOffset": 0,
+                          "dispersion": 0,
+                          "squashFactor": 0.98,
+                          "geometryFactor": 0.5,
+                          "gammaFactor": 1,
+                          "absorptionFactor": 1.6,
+                          "reflectivity": 0.5,
+                          "refractiveIndex": 1.6799999999999997,
+                          "rayBounces": 3,
+                          "diamondOrientedEnvMap": 0,
+                          "boostFactors": {
+                            "x": 1.3,
+                            "y": 0.15999999999999992,
+                            "z": 0.9,
+                            "isVector3": true
+                          },
+                          "transmission": 0,
+                          "isDiamondMaterialParameters": true,
+                          "userData": {
+                            "separateEnvMapIntensity": true,
+                            "gltfExtensions": {
+                              "WEBGI_materials_diamond": {
+                                "metadata": {
+                                  "version": 4.6,
+                                  "type": "DiamondMaterial",
+                                  "generator": "DiamondMaterial.toJSON"
+                                },
+                                "name": "diamond",
+                                "uuid": "9c368899-cc5f-4803-a172-2bcbb201e711",
+                                "color": 14762101,
+                                "envMapIntensity": 1,
+                                "envMapIndex": 0,
+                                "envMapRotationOffset": 0,
+                                "dispersion": 0,
+                                "squashFactor": 0.98,
+                                "geometryFactor": 0.5,
+                                "gammaFactor": 1,
+                                "absorptionFactor": 1.6,
+                                "reflectivity": 0.5,
+                                "refractiveIndex": 2.17,
+                                "rayBounces": 5,
+                                "diamondOrientedEnvMap": 0,
+                                "boostFactors": {
+                                  "x": 1.3,
+                                  "y": 0.15999999999999992,
+                                  "z": 0.9,
+                                  "isVector3": true
+                                },
+                                "transmission": 0,
+                                "isDiamondMaterialParameters": true,
+                                "type": "DiamondMaterial",
+                                "userData": {
+                                  "separateEnvMapIntensity": true,
+                                  "_baseMaterial": "9c368899-cc5f-4803-a172-2bcbb201e711",
+                                  "uuid": "9c368899-cc5f-4803-a172-2bcbb201e711"
+                                }
+                              }
+                            },
+                            "uuid": "9c368899-cc5f-4803-a172-2bcbb201e711"
+                          },
+                          "type": "DiamondMaterial"
+                        }
+                      },
+                      "uuid": "3bc30a97-1fa4-4e57-8e3b-8327bb8576ae"
+                    },
+                    "type": "DiamondMaterial"
+                  }
+                },
+                "uuid": "3bc30a97-1fa4-4e57-8e3b-8327bb8576ae"
+              },
+              "type": "DiamondMaterial"
+            }
+          },
+          "uuid": "3bc30a97-1fa4-4e57-8e3b-8327bb8576ae"
+        },
+        "type": "DiamondMaterial"
+      }
+    },
+    "_gemInclusions": {
+      "hasInclusions": true,
+      "blurRadius": 0.27144122175719654,
+      "surfaceRoughness": 0.2058400188473043,
+      "clampFlag": false,
+      "useInclusion": false,
+      "surfaceScale": 2.5269802092579874,
+      "bumpScale": 0.04,
+      "inclusionScale": 4.213868284083787,
+      "normalScale": 0.02,
+      "variableBlur": 0,
+      "variableParam1": 1,
+      "variableParam2": 1,
+      "variableParam3": 1,
+      "_inclusionMap": {
+        "uuid": "2d7af390-8d2e-4ca4-94eb-15bea8fab74e",
+        "resource": "textures"
+      },
+      "_normalMap": {
+        "uuid": "45a6bc31-b292-4d6c-88d6-0639ffa61f2a",
+        "resource": "textures"
+      },
+      "_inclusionNormalMap": {
+        "uuid": "7339d13e-99a3-49cf-b7f5-eb4a2f1e1a9d",
+        "resource": "textures"
+      },
+      "inclusionMap": {
+        "index": 12
+      },
+      "normalMap": {
+        "index": 13
+      },
+      "inclusionNormalMap": {
+        "index": 14
+      },
+      "_incRoughnessMap": {
+        "uuid": "9e7222e9-aa8e-4431-a818-bc8c64c0338f",
+        "resource": "textures"
+      },
+      "incRoughnessMap": {
+        "index": 11
+      },
+      "_roughnessMap": {
+        "uuid": "2d7af390-8d2e-4ca4-94eb-15bea8fab74e",
+        "resource": "textures"
+      }
+    },
+    "uuid": "3bc30a97-1fa4-4e57-8e3b-8327bb8576ae"
+  },
+  "type": "DiamondMaterial",
+  "textures": [
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "2d7af390-8d2e-4ca4-94eb-15bea8fab74e",
+      "name": "",
+      "image": "dd7ebf9f-0153-4a51-bc12-f7d047e7c122",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1000
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb",
+      "encoding": 3001,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": false,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/inclusions_grunge_6_09e98e5237.jpg"
+      }
+    },
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "45a6bc31-b292-4d6c-88d6-0639ffa61f2a",
+      "name": "",
+      "image": "c2e5c2f2-433c-42fa-b8f3-1594447f0fcc",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1000
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb",
+      "encoding": 3001,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": false,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/inclusions_normal_1_01bc31fd63.jpg"
+      }
+    },
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "7339d13e-99a3-49cf-b7f5-eb4a2f1e1a9d",
+      "name": "",
+      "image": "24b853c5-cc0f-47be-ab5d-208e7646c00b",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1000
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb",
+      "encoding": 3001,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": false,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/inclusions_normal_3_76100eb38a.jpg"
+      }
+    },
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "9e7222e9-aa8e-4431-a818-bc8c64c0338f",
+      "name": "",
+      "image": "3e6b3a9c-77ab-4caf-bd08-954dffdf6e1d",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1000
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb",
+      "encoding": 3001,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": false,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/inclusions_grunge_5b_ca84ee3cbb.jpg"
+      }
+    }
+  ],
+  "images": []
+}

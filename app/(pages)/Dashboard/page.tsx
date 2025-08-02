@@ -7,9 +7,33 @@ import Drive from "./components/Drive";
 import Trash from "./components/Trash";
 
 const navItems = [
-  { label: "Home", page: 1 },
-  { label: "My Drives", page: 2 },
-  { label: "Deleted Files", page: 3 },
+  {
+    label: "Home",
+    page: 1,
+    icon: (
+      <svg width="20" height="20" fill="#06213D" viewBox="0 0 24 24">
+        <path d="M3 10.5L12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1v-9.5z" />
+      </svg>
+    ),
+  },
+  {
+    label: "My Drives",
+    page: 2,
+    icon: (
+      <svg width="20" height="20" fill="#06213D" viewBox="0 0 24 24">
+        <path d="M4 4h16a1 1 0 0 1 .96.74L22 10v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8l1.04-5.26A1 1 0 0 1 4 4zm0 2l-.64 3h17.28L20 6H4zm0 5v7h16v-7H4zm13 4a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+      </svg>
+    ),
+  },
+  {
+    label: "Deleted Files",
+    page: 3,
+    icon: (
+      <svg width="20" height="20" fill="#06213D" viewBox="0 0 24 24">
+        <path d="M9 3h6v1h5v2H4V4h5V3zm1 5v10h2V8h-2zm4 0v10h2V8h-2zM5 8h14l-1 12H6L5 8z" />
+      </svg>
+    ),
+  },
 ];
 
 export default function Dashboard() {
@@ -36,7 +60,7 @@ export default function Dashboard() {
           <Image width={1000} height={1000} alt="" src="/logo.png" />
         </Link>
         <div className="w-2/6 md:w-2/3 xl:w-5/6">
-          <div className="bg-[#D9D9D9] hover:bg-white w-full xl:w-1/5 rounded-full px-1 md:px-3 flex items-center">
+          <div className="bg-[#D9D9D9] focus-within:bg-white hover:bg-white w-full xl:w-1/5 rounded-full px-1 md:px-3 flex items-center">
             <svg viewBox="0 0 1024 1024" className="hidden md:flex h-6 w-6" fill="#000000">
               <path d="M795.904 750.72l124.992 124.928a32 32 0 01-45.248 45.248L750.656 795.904a416 416 0 1145.248-45.248zM480 832a352 352 0 100-704 352 352 0 000 704z" />
             </svg>
@@ -58,10 +82,10 @@ export default function Dashboard() {
               <button
                 key={item.page}
                 onClick={() => setPageState(item.page)}
-                className={`rounded-full py-2 px-4 text-start flex flex-row gap-2 transition-all duration-200
-                  ${pageState === item.page ? ' shadow-lg border border-[#0074A8]' : 'hover:shadow-lg hover:border'}`}
+                className={`rounded-full py-2 px-4 text-start border border-black/0 flex flex-row items-center gap-2 transition-all duration-200
+                  ${pageState === item.page ? ' shadow-lg border border-blue-950' : 'hover:shadow-lg hover:border hover:border-black'}`}
               >
-                <span className="w-5 h-5 bg-[#1C274C] rounded-full"></span>
+                {item.icon}
                 <p>{item.label}</p>
               </button>
             ))}

@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "version": 4.6,
+    "type": "DiamondMaterial",
+    "generator": "DiamondMaterial.toJSON"
+  },
+  "name": "citrin-1",
+  "uuid": "8fce5e79-2fd3-4ed6-b39b-6616bfa8a4a0",
+  "color": 16771516,
+  "envMapIntensity": 1.03,
+  "envMapIndex": 0,
+  "envMapRotationOffset": 0,
+  "dispersion": 0,
+  "squashFactor": 0.98,
+  "geometryFactor": 0.5,
+  "gammaFactor": 1,
+  "absorptionFactor": 1.3,
+  "reflectivity": 0.3,
+  "refractiveIndex": 1.5500000000000003,
+  "rayBounces": 5,
+  "diamondOrientedEnvMap": 0,
+  "boostFactors": {
+    "x": 1.8,
+    "y": 1.8,
+    "z": 0.5,
+    "isVector3": true
+  },
+  "transmission": 0,
+  "isDiamondMaterialParameters": true,
+  "type": "DiamondMaterial",
+  "userData": {
+    "separateEnvMapIntensity": true,
+    "uuid": "8fce5e79-2fd3-4ed6-b39b-6616bfa8a4a0"
+  }
+}

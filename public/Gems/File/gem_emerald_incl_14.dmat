@@ -1,0 +1,341 @@
+{
+  "metadata": {
+    "version": 4.6,
+    "type": "DiamondMaterial",
+    "generator": "DiamondMaterial.toJSON"
+  },
+  "name": "Gem",
+  "uuid": "f9cc7a13-117f-4ad9-ad30-8dbd4d930ec3",
+  "color": 2998674,
+  "envMapIntensity": 1,
+  "envMapIndex": 0,
+  "envMapRotationOffset": 0,
+  "dispersion": 7.182839392716467e-19,
+  "squashFactor": 0.98,
+  "geometryFactor": 0.5,
+  "gammaFactor": 1,
+  "absorptionFactor": 1.6,
+  "reflectivity": 0.5,
+  "refractiveIndex": 1.58,
+  "rayBounces": 3,
+  "diamondOrientedEnvMap": 0,
+  "boostFactors": {
+    "x": -0.30000000000000004,
+    "y": 1.4078125,
+    "z": 0.6984375,
+    "isVector3": true
+  },
+  "transmission": 0,
+  "isDiamondMaterialParameters": true,
+  "userData": {
+    "separateEnvMapIntensity": true,
+    "rootPath": "https://packs.ijewel3d.com/files/1_gem_emerald_1_58128f46c0.dmat?localhost",
+    "cloneId": "0_1",
+    "gltfExtensions": {
+      "WEBGI_materials_diamond": {
+        "metadata": {
+          "version": 4.6,
+          "type": "DiamondMaterial",
+          "generator": "DiamondMaterial.toJSON"
+        },
+        "name": "Gem",
+        "uuid": "1c7b7cfb-5656-4393-9fa3-06330b1261a5",
+        "color": 1693079,
+        "envMapIntensity": 1,
+        "envMapIndex": 0,
+        "envMapRotationOffset": 0,
+        "dispersion": 7.182839392716467e-19,
+        "squashFactor": 0.98,
+        "geometryFactor": 0.5,
+        "gammaFactor": 1,
+        "absorptionFactor": 1.6,
+        "reflectivity": 0.5,
+        "refractiveIndex": 1.58,
+        "rayBounces": 3,
+        "diamondOrientedEnvMap": 0,
+        "boostFactors": {
+          "x": -0.30000000000000004,
+          "y": 1,
+          "z": 1,
+          "isVector3": true
+        },
+        "transmission": 0,
+        "isDiamondMaterialParameters": true,
+        "userData": {
+          "separateEnvMapIntensity": true,
+          "rootPath": "https://packs.ijewel3d.com/files/1_gem_emerald_1_58128f46c0.dmat?localhost",
+          "cloneId": "0_1",
+          "gltfExtensions": {
+            "WEBGI_materials_diamond": {
+              "metadata": {
+                "version": 4.6,
+                "type": "DiamondMaterial",
+                "generator": "DiamondMaterial.toJSON"
+              },
+              "name": "Gem",
+              "uuid": "8069ef69-b66a-4c37-b11f-37e7712894e9",
+              "color": 2285475,
+              "envMapIntensity": 1,
+              "envMapIndex": 0,
+              "envMapRotationOffset": 0,
+              "dispersion": 7.182839392716467e-19,
+              "squashFactor": 0.98,
+              "geometryFactor": 0.5,
+              "gammaFactor": 1,
+              "absorptionFactor": 1.6,
+              "reflectivity": 0.5,
+              "refractiveIndex": 1.58,
+              "rayBounces": 3,
+              "diamondOrientedEnvMap": 0,
+              "boostFactors": {
+                "x": -0.30000000000000004,
+                "y": 1,
+                "z": 1,
+                "isVector3": true
+              },
+              "transmission": 0,
+              "isDiamondMaterialParameters": true,
+              "userData": {
+                "separateEnvMapIntensity": true,
+                "rootPath": "https://packs.ijewel3d.com/files/1_gem_emerald_1_58128f46c0.dmat?localhost",
+                "cloneId": "0_1",
+                "uuid": "8069ef69-b66a-4c37-b11f-37e7712894e9"
+              },
+              "type": "DiamondMaterial"
+            }
+          },
+          "uuid": "1c7b7cfb-5656-4393-9fa3-06330b1261a5"
+        },
+        "type": "DiamondMaterial"
+      }
+    },
+    "_gemInclusions": {
+      "hasInclusions": true,
+      "blurRadius": 0.14965587933811686,
+      "surfaceRoughness": 0.19646841843160542,
+      "clampFlag": false,
+      "useInclusion": false,
+      "surfaceScale": 1.3086721552171319,
+      "bumpScale": 0.02,
+      "inclusionScale": 0.4,
+      "normalScale": 0.4652281178042318,
+      "variableBlur": 0,
+      "variableParam1": 1,
+      "variableParam2": 1.5899999999999996,
+      "variableParam3": 1.78,
+      "_incRoughnessMap": {
+        "uuid": "d74d7f5f-cf15-4a88-8aca-26b23507136f",
+        "resource": "textures"
+      },
+      "_inclusionMap": {
+        "uuid": "1458fb3c-df22-4c45-b372-ad40b035a6dd",
+        "resource": "textures"
+      },
+      "_inclusionNormalMap": {
+        "uuid": "9f082dc8-ab2a-48a0-a21d-20d965e1b8ca",
+        "resource": "textures"
+      },
+      "_normalMap": {
+        "uuid": "3d78dd08-1994-445d-a750-ff66063719b8",
+        "resource": "textures"
+      },
+      "incRoughnessMap": {
+        "index": 4
+      },
+      "inclusionMap": {
+        "index": 5
+      },
+      "normalMap": {
+        "index": 6
+      },
+      "inclusionNormalMap": {
+        "index": 7
+      },
+      "_roughnessMap": {
+        "uuid": "d74d7f5f-cf15-4a88-8aca-26b23507136f",
+        "resource": "textures"
+      }
+    },
+    "uuid": "f9cc7a13-117f-4ad9-ad30-8dbd4d930ec3"
+  },
+  "type": "DiamondMaterial",
+  "textures": [
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "d74d7f5f-cf15-4a88-8aca-26b23507136f",
+      "name": "",
+      "image": "493ac428-890b-4a83-8b04-8aede054971e",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1000
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb",
+      "encoding": 3001,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": false,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/inclusions_grunge_1_f2ef5f7026.jpg"
+      }
+    },
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "1458fb3c-df22-4c45-b372-ad40b035a6dd",
+      "name": "",
+      "image": "5b0044b3-1980-4d63-acd3-3a465fd3f195",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1000
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb",
+      "encoding": 3001,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": false,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/inclusions_grunge_5b_ca84ee3cbb.jpg"
+      }
+    },
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "9f082dc8-ab2a-48a0-a21d-20d965e1b8ca",
+      "name": "",
+      "image": "7676ee28-588d-484e-aaac-1a33cc96421b",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1000
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb",
+      "encoding": 3001,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": false,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/inclusions_normal_2_f2525e0d8f.jpg"
+      }
+    },
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "3d78dd08-1994-445d-a750-ff66063719b8",
+      "name": "",
+      "image": "da19dc33-8c1b-414d-85ab-f3bc5b724ddf",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1000
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb",
+      "encoding": 3001,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": false,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/inclusions_normal_1_01bc31fd63.jpg"
+      }
+    }
+  ],
+  "images": []
+}

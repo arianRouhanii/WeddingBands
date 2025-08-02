@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "version": 4.6,
+    "type": "Material",
+    "generator": "Material.toJSON"
+  },
+  "uuid": "570e4ff8-14af-44ce-afc0-186e47405984",
+  "type": "MeshStandardMaterial2",
+  "name": "Brush",
+  "color": 15904643,
+  "roughness": 0.6093431433383565,
+  "metalness": 1,
+  "sheen": 0,
+  "sheenColor": 0,
+  "sheenRoughness": 1,
+  "emissive": 0,
+  "specularIntensity": 1,
+  "specularColor": 16777215,
+  "clearcoat": 0,
+  "clearcoatRoughness": 0,
+  "iridescence": 0,
+  "iridescenceIOR": 1.3,
+  "iridescenceThicknessRange": [
+    100,
+    400
+  ],
+  "anisotropy": 0,
+  "anisotropyRotation": 0,
+  "bumpMap": "48b7c81b-b45f-4ce0-91f6-af528257f773",
+  "bumpScale": 0.0029999999999999792,
+  "roughnessMap": "48b7c81b-b45f-4ce0-91f6-af528257f773",
+  "envMapIntensity": 1,
+  "reflectivity": 0.49999999999999983,
+  "transmission": 0,
+  "thickness": 0,
+  "attenuationDistance": 0,
+  "attenuationColor": 16777215,
+  "side": 2,
+  "depthFunc": 3,
+  "depthTest": true,
+  "depthWrite": true,
+  "colorWrite": true,
+  "stencilWrite": false,
+  "stencilWriteMask": 255,
+  "stencilFunc": 519,
+  "stencilRef": 0,
+  "stencilFuncMask": 255,
+  "stencilFail": 7680,
+  "stencilZFail": 7680,
+  "stencilZPass": 7680,
+  "fog": false,
+  "userData": {
+    "_ssBevel": {
+      "hasSSBevel": true,
+      "radius": 8
+    },
+    "cloneId": "0_1",
+    "gltfExtensions": {},
+    "uuid": "570e4ff8-14af-44ce-afc0-186e47405984"
+  },
+  "textures": [
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "48b7c81b-b45f-4ce0-91f6-af528257f773",
+      "name": "",
+      "image": "6b0f7d97-c531-4c06-b0d7-0249ce9ffca8",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1000
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb-linear",
+      "encoding": 3000,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": false,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/brush_uv_db70ac029f.png"
+      }
+    }
+  ],
+  "images": []
+}

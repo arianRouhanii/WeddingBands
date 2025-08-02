@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "version": 4.6,
+    "type": "Material",
+    "generator": "Material.toJSON"
+  },
+  "uuid": "3eeb52de-d564-4c41-a7df-8a4b2a5f079f",
+  "type": "MeshStandardMaterial2",
+  "name": "Oxidized",
+  "color": 15580024,
+  "roughness": 1,
+  "metalness": 1,
+  "sheen": 0,
+  "sheenColor": 0,
+  "sheenRoughness": 1,
+  "emissive": 0,
+  "specularIntensity": 1,
+  "specularColor": 16777215,
+  "clearcoat": 0,
+  "clearcoatRoughness": 0,
+  "iridescence": 0,
+  "iridescenceIOR": 1.3,
+  "iridescenceThicknessRange": [
+    100,
+    400
+  ],
+  "anisotropy": 0,
+  "anisotropyRotation": 0,
+  "normalMap": "33588fe6-16ab-42a4-a75b-b9917e93178a",
+  "normalMapType": 0,
+  "normalScale": [
+    1,
+    -1
+  ],
+  "roughnessMap": "2bf8db57-8dc9-47b4-9166-eaca66e28d4d",
+  "envMapIntensity": 1,
+  "reflectivity": 0.49999999999999983,
+  "transmission": 0,
+  "thickness": 0,
+  "attenuationDistance": 0,
+  "attenuationColor": 16777215,
+  "side": 2,
+  "depthFunc": 3,
+  "depthTest": true,
+  "depthWrite": true,
+  "colorWrite": true,
+  "stencilWrite": false,
+  "stencilWriteMask": 255,
+  "stencilFunc": 519,
+  "stencilRef": 0,
+  "stencilFuncMask": 255,
+  "stencilFail": 7680,
+  "stencilZFail": 7680,
+  "stencilZPass": 7680,
+  "fog": false,
+  "userData": {
+    "_isAnisotropic": false,
+    "_anisotropyFactor": -0.1963382737576287,
+    "_anisotropyNoise": 0,
+    "_anisotropyDirectionMode": "DIRECTION",
+    "_58b5d28e-6d40-449d-854d-895eedfd9b45_version": 7,
+    "_triplanarMapping": {
+      "enable": true,
+      "scaleFactor": 1.5,
+      "blendFactor": 1,
+      "offsetFactor": 0
+    },
+    "_bf8c21ed-c1ee-4d1f-8af1-5f2653332878_version": 143,
+    "_1c31db21-4e83-4890-957f-e165cf8e2da6_version": 35,
+    "uuid": "3eeb52de-d564-4c41-a7df-8a4b2a5f079f"
+  },
+  "textures": [
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "33588fe6-16ab-42a4-a75b-b9917e93178a",
+      "name": "",
+      "image": "aa0cc84e-f9a6-41b9-aa4b-2742332696e1",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1000
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb-linear",
+      "encoding": 3000,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": true,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/metal_oxidized_normal_3859be410f.jpg"
+      }
+    },
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "2bf8db57-8dc9-47b4-9166-eaca66e28d4d",
+      "name": "",
+      "image": "19cab58b-cf6a-49b4-8f70-2d65d08af7b9",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1000
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb-linear",
+      "encoding": 3000,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": true,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/metal_oxidized_ough_6e208b3bf6.jpg"
+      }
+    }
+  ],
+  "images": []
+}

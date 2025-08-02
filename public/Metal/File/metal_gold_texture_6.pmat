@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "version": 4.6,
+    "type": "Material",
+    "generator": "Material.toJSON"
+  },
+  "uuid": "c1c0aa03-1d83-4e20-bb06-013e39490f83",
+  "type": "MeshStandardMaterial2",
+  "name": "Metal 01",
+  "color": 14590305,
+  "roughness": 0.35047951176983433,
+  "metalness": 0.6294681778552746,
+  "sheen": 0,
+  "sheenColor": 0,
+  "sheenRoughness": 1,
+  "emissive": 0,
+  "specularIntensity": 1,
+  "specularColor": 16777215,
+  "clearcoat": 0,
+  "clearcoatRoughness": 0,
+  "iridescence": 0,
+  "iridescenceIOR": 1.3,
+  "iridescenceThicknessRange": [
+    100,
+    400
+  ],
+  "anisotropy": 0,
+  "anisotropyRotation": 0,
+  "normalMap": "fc88c61c-751f-47f1-8809-da090724a1fc",
+  "normalMapType": 0,
+  "normalScale": [
+    5,
+    -5
+  ],
+  "envMapIntensity": 1,
+  "reflectivity": 0.49999999999999983,
+  "transmission": 0,
+  "thickness": 0,
+  "attenuationDistance": 0,
+  "attenuationColor": 16777215,
+  "side": 2,
+  "depthFunc": 3,
+  "depthTest": true,
+  "depthWrite": true,
+  "colorWrite": true,
+  "stencilWrite": false,
+  "stencilWriteMask": 255,
+  "stencilFunc": 519,
+  "stencilRef": 0,
+  "stencilFuncMask": 255,
+  "stencilFail": 7680,
+  "stencilZFail": 7680,
+  "stencilZPass": 7680,
+  "fog": false,
+  "userData": {
+    "gltfExtensions": {},
+    "cloneId": "0_1",
+    "cloneCount": 0,
+    "_triplanarMapping": {
+      "enable": true,
+      "scaleFactor": 1,
+      "blendFactor": 1,
+      "offsetFactor": 0
+    },
+    "_9f355d81-6f5b-40b5-bdb0-c384a6fb0df2_version": 15,
+    "uuid": "c1c0aa03-1d83-4e20-bb06-013e39490f83"
+  },
+  "textures": [
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "fc88c61c-751f-47f1-8809-da090724a1fc",
+      "name": "",
+      "image": "1485247f-af5c-44db-b2d2-6ddd1f1e4909",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1000
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb-linear",
+      "encoding": 3000,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": true,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/paper_normal_d9e58544bd.jpg"
+      }
+    }
+  ],
+  "images": []
+}

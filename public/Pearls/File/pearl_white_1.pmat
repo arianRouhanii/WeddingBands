@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "version": 4.6,
+    "type": "Material",
+    "generator": "Material.toJSON"
+  },
+  "uuid": "60ccddad-7515-4636-bc5c-b6e514f77a59",
+  "type": "MeshStandardMaterial2",
+  "name": "pearl-white",
+  "color": 16777215,
+  "roughness": 0.18,
+  "metalness": 0.4,
+  "sheen": 0,
+  "sheenColor": 0,
+  "sheenRoughness": 1,
+  "emissive": 0,
+  "specularIntensity": 1,
+  "specularColor": 16777215,
+  "clearcoat": 0,
+  "clearcoatRoughness": 0,
+  "iridescence": 0,
+  "iridescenceIOR": 1.3,
+  "iridescenceThicknessRange": [
+    100,
+    400
+  ],
+  "anisotropy": 0,
+  "anisotropyRotation": 0,
+  "envMapIntensity": 1,
+  "reflectivity": 0.49999999999999983,
+  "transmission": 0,
+  "thickness": 0,
+  "attenuationDistance": 0,
+  "attenuationColor": 16777215,
+  "side": 2,
+  "depthFunc": 3,
+  "depthTest": true,
+  "depthWrite": true,
+  "colorWrite": true,
+  "stencilWrite": false,
+  "stencilWriteMask": 255,
+  "stencilFunc": 519,
+  "stencilRef": 0,
+  "stencilFuncMask": 255,
+  "stencilFail": 7680,
+  "stencilZFail": 7680,
+  "stencilZPass": 7680,
+  "fog": false,
+  "userData": {
+    "_thinFilmLayer": {
+      "hasThinFilm": true,
+      "baseLayerFactors": [
+        0.5,
+        0.23,
+        1,
+        0.5800000000000001
+      ],
+      "noiseLayerFactors": [
+        0.5,
+        0.1,
+        0.81,
+        0.6900000000000001
+      ],
+      "colorNoiseParams": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "filmFactor": 0.5
+    },
+    "_773d7658-495a-4cf2-92b6-cd881969ffee_version": 41,
+    "_triplanarMapping": {
+      "enable": true,
+      "scaleFactor": 0.14419912686005876,
+      "blendFactor": 1,
+      "offsetFactor": 0
+    },
+    "_e4731b3e-4300-4448-8199-44e6de22bd65_version": 1,
+    "cloneId": "0",
+    "cloneCount": 1,
+    "uuid": "60ccddad-7515-4636-bc5c-b6e514f77a59"
+  },
+  "textures": [],
+  "images": []
+}

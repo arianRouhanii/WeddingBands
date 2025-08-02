@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "version": 4.6001,
+    "type": "Material",
+    "generator": "Material.toJSON"
+  },
+  "uuid": "b35e9e8b-1e82-4570-94ce-e3b1c8a57725",
+  "type": "MeshStandardMaterial2",
+  "name": "Ceramic",
+  "color": 12040119,
+  "roughness": 0.16,
+  "metalness": 0.41206618831454095,
+  "sheen": 0,
+  "sheenColor": 0,
+  "sheenRoughness": 1,
+  "emissive": 16717546,
+  "emissiveIntensity": 0.02,
+  "specularIntensity": 1,
+  "specularColor": 16777215,
+  "clearcoat": 0,
+  "clearcoatRoughness": 0,
+  "iridescence": 0,
+  "iridescenceIOR": 1.3,
+  "iridescenceThicknessRange": [
+    100,
+    400
+  ],
+  "anisotropy": 0,
+  "anisotropyRotation": 0,
+  "map": "6277c9af-4562-49cf-a4a0-883201ef927c",
+  "normalMap": "217174f0-b415-49b3-9146-e82b42f3b439",
+  "normalMapType": 0,
+  "normalScale": [
+    0.1,
+    -0.1
+  ],
+  "envMapIntensity": 1,
+  "reflectivity": 0.7979165430046891,
+  "transmission": 0,
+  "thickness": 0,
+  "attenuationDistance": 0,
+  "attenuationColor": 16777215,
+  "side": 2,
+  "blendColor": 0,
+  "fog": false,
+  "userData": {
+    "_thinFilmLayer": {
+      "hasThinFilm": true,
+      "baseLayerFactors": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "noiseLayerFactors": [
+        0.7,
+        0.5,
+        0.9,
+        0.7
+      ],
+      "colorNoiseParams": [
+        0.5,
+        0.5,
+        0.5,
+        0.7
+      ],
+      "filmFactor": 0.0714908457
+    },
+    "gltfExtensions": {},
+    "rootPath": "https://packs.ijewel3d.com/files/pearlmutt_593126d047.pmat?localhost",
+    "cloneId": "0_3",
+    "cloneCount": 0,
+    "_2b51eb21-f041-4c6a-a24b-3e0d7a942fba_version": 30,
+    "_triplanarMapping": {
+      "enable": true,
+      "scaleFactor": 2,
+      "blendFactor": 1,
+      "offsetFactor": 0
+    },
+    "uuid": "b35e9e8b-1e82-4570-94ce-e3b1c8a57725"
+  },
+  "textures": [
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "6277c9af-4562-49cf-a4a0-883201ef927c",
+      "name": "https://packs.ijewel3d.com/files/pearl_10a_be0f6bad82.jpg",
+      "image": "82ce100f-3564-4c68-be53-36b8bc59c10e",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1000
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb",
+      "encoding": 3001,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": false,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/pearl_10a_be0f6bad82.jpg"
+      }
+    },
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "217174f0-b415-49b3-9146-e82b42f3b439",
+      "name": "https://packs.ijewel3d.com/files/pearl_normal_7_7e6009266c.jpg",
+      "image": "be6187cd-5100-47dd-b516-2e4a581cdfbb",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1000
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb-linear",
+      "encoding": 3000,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": true,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/pearl_normal_7_7e6009266c.jpg"
+      }
+    }
+  ],
+  "images": []
+}

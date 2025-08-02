@@ -1,0 +1,213 @@
+{
+  "bakedShadows": true,
+  "groundReflection": false,
+  "physicalReflections": false,
+  "shadowBaker": {
+    "randomizedLight": {
+      "object": {
+        "uuid": "6f64d6c3-f9ea-4578-a5b5-4149eca9a2c7",
+        "type": "DirectionalLight",
+        "castShadow": true,
+        "layers": 32,
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "color": 16777215,
+        "intensity": 10,
+        "shadow": {
+          "radius": 10,
+          "mapSize": [
+            1024,
+            1024
+          ],
+          "camera": {
+            "uuid": "edf9b104-a27a-418e-9b0d-400715d8d983",
+            "type": "OrthographicCamera",
+            "layers": 1,
+            "up": [
+              0,
+              1,
+              0
+            ],
+            "zoom": 1,
+            "left": -2,
+            "right": 2,
+            "top": 2,
+            "bottom": -2,
+            "near": -2,
+            "far": 41,
+            "view": {
+              "enabled": true,
+              "fullWidth": 1024,
+              "fullHeight": 1024,
+              "offsetX": -0.25,
+              "offsetY": 0.375,
+              "width": 1024,
+              "height": 1024
+            }
+          }
+        }
+      },
+      "userData": {},
+      "type": "DirectionalLight2",
+      "target": [
+        0.05010458186274669,
+        -0.994597610092005,
+        -0.09091273219759383
+      ],
+      "shadowParams": {
+        "enabled": true,
+        "radius": 10,
+        "width": 1024,
+        "height": 1024,
+        "bias": 0,
+        "normalBias": 0,
+        "near": 1.5,
+        "far": 20,
+        "frustumSize": 4
+      },
+      "randomParams": {
+        "focus": 0.3086259912607218,
+        "spread": 0.2050493607379835,
+        "distanceScale": 20,
+        "minDistanceScale": {
+          "x": 10,
+          "y": 10,
+          "z": 10,
+          "isVector3": true
+        },
+        "normalDirection": {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "isVector3": true
+        },
+        "direction": {
+          "x": 0.01245008972987523,
+          "y": 1,
+          "z": 0.01245008972987523,
+          "isVector3": true
+        }
+      }
+    },
+    "maxFrameNumber": 400,
+    "smoothShadow": true,
+    "groundMapMode": "aoMap",
+    "alphaVignette": true,
+    "alphaVignetteAxis": "xy",
+    "maxBakeCount": "Infinity"
+  },
+  "material": {
+    "uuid": "e5e8d5ac-03f9-4105-9928-a7a4f5a3005b",
+    "resource": "materials"
+  },
+  "visible": true,
+  "size": 8,
+  "yOffset": 0,
+  "renderToDepth": true,
+  "tonemapGround": true,
+  "limitCameraAboveGround": false,
+  "type": "Ground",
+  "resources": {
+    "geometries": {},
+    "materials": {
+      "e5e8d5ac-03f9-4105-9928-a7a4f5a3005b": {
+        "metadata": {
+          "version": 4.6,
+          "type": "Material",
+          "generator": "Material.toJSON"
+        },
+        "uuid": "e5e8d5ac-03f9-4105-9928-a7a4f5a3005b",
+        "type": "MeshStandardMaterial2",
+        "name": "GroundMaterial",
+        "color": 328965,
+        "roughness": 1,
+        "metalness": 0,
+        "sheen": 0,
+        "sheenColor": 0,
+        "sheenRoughness": 1,
+        "emissive": 0,
+        "specularIntensity": 1,
+        "specularColor": 16777215,
+        "clearcoat": 0,
+        "clearcoatRoughness": 0,
+        "iridescence": 0,
+        "iridescenceIOR": 1.3,
+        "iridescenceThicknessRange": [
+          100,
+          400
+        ],
+        "envMapIntensity": 1,
+        "reflectivity": 0.49999999999999983,
+        "transmission": 0,
+        "thickness": 0,
+        "attenuationDistance": 0,
+        "attenuationColor": 16777215,
+        "blending": 0,
+        "opacity": 0.95,
+        "transparent": true,
+        "depthFunc": 3,
+        "depthTest": true,
+        "depthWrite": true,
+        "colorWrite": true,
+        "stencilWrite": false,
+        "stencilWriteMask": 255,
+        "stencilFunc": 519,
+        "stencilRef": 0,
+        "stencilFuncMask": 255,
+        "stencilFail": 7680,
+        "stencilZFail": 7680,
+        "stencilZPass": 7680,
+        "fog": false,
+        "userData": {
+          "renderToDepth": true,
+          "postTonemap": true,
+          "ssaoDisabled": true,
+          "sscsDisabled": true,
+          "ssreflDisabled": false,
+          "ssreflNonPhysical": true,
+          "gMapMode": "aoMap",
+          "ALPHA_I_RGBA_PACKING": false,
+          "_7a060e64-fa5e-48fb-a536-e2328c8b8f2e_version": 5,
+          "_c49bea25-c782-418d-9c4e-2f03281063ca_version": 23,
+          "_8448a6b1-a38a-4cc9-9037-a7f47f3b0598_version": 6,
+          "_0ca8ae15-e9a9-4b78-901a-3b80e7e6c31d_version": 1,
+          "_67712192-1fe1-4571-910e-c813998dd6bd_version": 4,
+          "_1ed7e963-b37a-44a9-9f3b-c635448332ed_version": 2,
+          "_260262c6-a537-4f5b-8801-c370f625b28a_version": 1,
+          "_86b43b5d-f327-451e-99cc-6a11140d3699_version": 2,
+          "_7ce9de72-5791-4431-acc1-367fd0ea9b37_version": 2,
+          "_3e69ba78-e4ac-4dfe-9a44-fbb49e14ce42_version": 4,
+          "_a94977ac-c249-431f-8503-ccd0186c30a5_version": 1,
+          "uuid": "e5e8d5ac-03f9-4105-9928-a7a4f5a3005b"
+        }
+      }
+    },
+    "textures": {},
+    "images": {},
+    "shapes": {},
+    "skeletons": {},
+    "animations": {},
+    "extras": {}
+  }
+}

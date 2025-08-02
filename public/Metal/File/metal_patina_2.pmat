@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "version": 4.6,
+    "type": "Material",
+    "generator": "Material.toJSON"
+  },
+  "uuid": "a546ff1e-64dc-4b90-b09b-57766c93ec50",
+  "type": "MeshStandardMaterial2",
+  "name": "Material_0",
+  "color": 15525606,
+  "roughness": 1,
+  "metalness": 0.7,
+  "sheen": 0,
+  "sheenColor": 0,
+  "sheenRoughness": 1,
+  "emissive": 0,
+  "specularIntensity": 1,
+  "specularColor": 16777215,
+  "clearcoat": 0,
+  "clearcoatRoughness": 0,
+  "iridescence": 0,
+  "iridescenceIOR": 1.3,
+  "iridescenceThicknessRange": [
+    100,
+    400
+  ],
+  "anisotropy": 0,
+  "anisotropyRotation": 0,
+  "map": "e98c9d9a-72fb-4528-a693-442199cf4dc4",
+  "bumpMap": "8d430eb7-796e-4e6c-b950-41e697963dc6",
+  "bumpScale": 0.0019999999999999792,
+  "roughnessMap": "5e3dc123-0750-46bc-bdca-8da12e7e240a",
+  "envMapIntensity": 1,
+  "reflectivity": 1,
+  "transmission": 0,
+  "thickness": 0,
+  "attenuationDistance": 0,
+  "attenuationColor": 16777215,
+  "depthFunc": 3,
+  "depthTest": true,
+  "depthWrite": true,
+  "colorWrite": true,
+  "stencilWrite": false,
+  "stencilWriteMask": 255,
+  "stencilFunc": 519,
+  "stencilRef": 0,
+  "stencilFuncMask": 255,
+  "stencilFail": 7680,
+  "stencilZFail": 7680,
+  "stencilZPass": 7680,
+  "fog": false,
+  "userData": {
+    "_ssBevel": {
+      "hasSSBevel": true,
+      "radius": 4
+    },
+    "cloneId": "0_1_1",
+    "gltfExtensions": {},
+    "_triplanarMapping": {
+      "enable": true,
+      "scaleFactor": 1,
+      "blendFactor": 7,
+      "offsetFactor": 0
+    },
+    "_98f03784-b2da-40cf-8c60-38b5345b1f46_version": 85,
+    "rootPath": "https://packs.ijewel3d.com/files/metal_patina_eb22cb09e5.pmat?localhost",
+    "cloneCount": 0,
+    "_clearcoatTint": {
+      "enableTint": false,
+      "tintColor": 16777215,
+      "thickness": 0.1,
+      "ior": 1.5
+    },
+    "_bf7cfab2-f1ff-4c1b-9ea8-81121b83d19c_version": 2,
+    "_layeredMaterial": {
+      "enable": true,
+      "cutoff": -0.663,
+      "cavityColor": {
+        "r": 0.16826940017946088,
+        "g": 0.3277780980458375,
+        "b": 0.21223075740342195,
+        "isColor": true
+      },
+      "cavityRoughness": 0.5,
+      "cavityMetalness": 0.5,
+      "cavityScale": 1,
+      "stepSize": 5
+    },
+    "uuid": "a546ff1e-64dc-4b90-b09b-57766c93ec50"
+  },
+  "textures": [
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "e98c9d9a-72fb-4528-a693-442199cf4dc4",
+      "name": "",
+      "image": "6b0b0b53-48b8-4db3-aa34-4db51582c40d",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1000
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb",
+      "encoding": 3001,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": true,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/patina_11a41aac2e.jpg"
+      }
+    },
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "8d430eb7-796e-4e6c-b950-41e697963dc6",
+      "name": "",
+      "image": "ce222d47-cdfa-4fe7-9a1b-5c4db63dee71",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1002
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb-linear",
+      "encoding": 3000,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": true,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/patina_bump_15a92921cb.jpg"
+      }
+    },
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "5e3dc123-0750-46bc-bdca-8da12e7e240a",
+      "name": "",
+      "image": "7dcd3315-02f4-4a1e-82f5-33aa24332726",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1000
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb-linear",
+      "encoding": 3000,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": true,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/patina_roughness_9bef0376d5.jpg"
+      }
+    }
+  ],
+  "images": []
+}

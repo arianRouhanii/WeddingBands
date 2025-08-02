@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "version": 4.6,
+    "type": "Material",
+    "generator": "Material.toJSON"
+  },
+  "uuid": "16242b85-da09-4381-8b30-5a6180141ea0",
+  "type": "MeshStandardMaterial2",
+  "name": "Metal",
+  "color": 16777215,
+  "roughness": 1,
+  "metalness": 0.8532931477705877,
+  "sheen": 0,
+  "sheenColor": 0,
+  "sheenRoughness": 1,
+  "emissive": 0,
+  "specularIntensity": 1,
+  "specularColor": 16777215,
+  "clearcoat": 0,
+  "clearcoatRoughness": 0,
+  "iridescence": 0,
+  "iridescenceIOR": 1.3,
+  "iridescenceThicknessRange": [
+    100,
+    400
+  ],
+  "anisotropy": 0,
+  "anisotropyRotation": 0,
+  "map": "7e2d6fa2-1bc1-4dd0-8625-beb1f658f71a",
+  "bumpMap": "7e2d6fa2-1bc1-4dd0-8625-beb1f658f71a",
+  "bumpScale": 0.0019999999999999792,
+  "roughnessMap": "7e2d6fa2-1bc1-4dd0-8625-beb1f658f71a",
+  "envMapIntensity": 1,
+  "reflectivity": 1,
+  "transmission": 0,
+  "thickness": 0,
+  "attenuationDistance": 0,
+  "attenuationColor": 16777215,
+  "depthFunc": 3,
+  "depthTest": true,
+  "depthWrite": true,
+  "colorWrite": true,
+  "stencilWrite": false,
+  "stencilWriteMask": 255,
+  "stencilFunc": 519,
+  "stencilRef": 0,
+  "stencilFuncMask": 255,
+  "stencilFail": 7680,
+  "stencilZFail": 7680,
+  "stencilZPass": 7680,
+  "fog": false,
+  "userData": {
+    "_ssBevel": {
+      "hasSSBevel": true,
+      "radius": 4
+    },
+    "cloneId": "0_1",
+    "gltfExtensions": {},
+    "_triplanarMapping": {
+      "enable": true,
+      "scaleFactor": 1,
+      "blendFactor": 6.637266199804982,
+      "offsetFactor": 0
+    },
+    "_98f03784-b2da-40cf-8c60-38b5345b1f46_version": 85,
+    "uuid": "16242b85-da09-4381-8b30-5a6180141ea0"
+  },
+  "textures": [
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "7e2d6fa2-1bc1-4dd0-8625-beb1f658f71a",
+      "name": "",
+      "image": "72cb7b12-1fb0-4e07-aa94-31008eff5fc0",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1000
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb",
+      "encoding": 3001,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": true,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/meteorit_9vbn7c.jpg"
+      }
+    }
+  ],
+  "images": []
+}

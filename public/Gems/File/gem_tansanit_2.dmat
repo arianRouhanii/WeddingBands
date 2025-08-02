@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "version": 4.6,
+    "type": "DiamondMaterial",
+    "generator": "DiamondMaterial.toJSON"
+  },
+  "name": "Tansanit 2",
+  "uuid": "4cbefd54-e61d-4927-9311-d0d99b769bb0",
+  "color": 8637383,
+  "envMapIntensity": 1.37,
+  "envMapIndex": 1,
+  "envMapRotationOffset": 0.14,
+  "dispersion": 0,
+  "squashFactor": 0.98,
+  "geometryFactor": 0.5,
+  "gammaFactor": 1.1,
+  "absorptionFactor": 1.5,
+  "reflectivity": 0.5,
+  "refractiveIndex": 1.8,
+  "rayBounces": 4,
+  "diamondOrientedEnvMap": 0,
+  "boostFactors": {
+    "x": 1,
+    "y": 1,
+    "z": 1,
+    "isVector3": true
+  },
+  "transmission": 0.15,
+  "isDiamondMaterialParameters": true,
+  "type": "DiamondMaterial",
+  "userData": {
+    "separateEnvMapIntensity": true,
+    "cloneId": "0_1_1_1_1",
+    "cloneCount": 0,
+    "_baseMaterial": "9c4c359b-e359-498b-aa22-1505205f051e",
+    "_thinFilmLayer": {
+      "hasThinFilm": true,
+      "baseLayerFactors": [
+        0.6,
+        0.6,
+        1,
+        0.9
+      ],
+      "noiseLayerFactors": [
+        0.8799999999999999,
+        0.5,
+        0.9,
+        0.57
+      ],
+      "colorNoiseParams": [
+        0.5,
+        0.5,
+        0.5,
+        0.7
+      ],
+      "filmFactor": 0.3
+    },
+    "uuid": "4cbefd54-e61d-4927-9311-d0d99b769bb0"
+  }
+}

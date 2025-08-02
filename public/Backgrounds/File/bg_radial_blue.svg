@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="700px" viewBox="0 0 1000 700" enable-background="new 0 0 1000 700" xml:space="preserve">
+<radialGradient id="SVGID_1_" cx="393.4488" cy="439.6535" r="1056.2744" fx="267.1968" fy="727.1144" gradientTransform="matrix(0.8399 0.0121 -4.875508e-03 0.3326 2.1783 214.6015)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0.0368" style="stop-color:#7DA7BF"/>
+	<stop  offset="0.1615" style="stop-color:#78A2B9"/>
+	<stop  offset="0.3038" style="stop-color:#6B93A9"/>
+	<stop  offset="0.4547" style="stop-color:#577C90"/>
+	<stop  offset="0.6115" style="stop-color:#3E5F71"/>
+	<stop  offset="0.7715" style="stop-color:#23404E"/>
+	<stop  offset="0.8462" style="stop-color:#16323F"/>
+	<stop  offset="0.9044" style="stop-color:#112630"/>
+	<stop  offset="0.9629" style="stop-color:#0C1C23"/>
+	<stop  offset="1" style="stop-color:#0A181F"/>
+</radialGradient>
+<rect x="0" fill="url(#SVGID_1_)" width="1000" height="700"/>
+</svg>

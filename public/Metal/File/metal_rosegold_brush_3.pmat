@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "version": 4.6,
+    "type": "Material",
+    "generator": "Material.toJSON"
+  },
+  "uuid": "02b3a7ea-f483-4373-967c-4cf209dc7b84",
+  "type": "MeshStandardMaterial2",
+  "name": "Brushed",
+  "color": 15904643,
+  "roughness": 1,
+  "metalness": 1,
+  "sheen": 0,
+  "sheenColor": 0,
+  "sheenRoughness": 1,
+  "emissive": 0,
+  "specularIntensity": 1,
+  "specularColor": 16777215,
+  "clearcoat": 0,
+  "clearcoatRoughness": 0,
+  "iridescence": 0,
+  "iridescenceIOR": 1.3,
+  "iridescenceThicknessRange": [
+    100,
+    400
+  ],
+  "anisotropy": 0,
+  "anisotropyRotation": 0,
+  "normalMap": "79189c96-2f79-4148-937f-04174472217d",
+  "normalMapType": 0,
+  "normalScale": [
+    1,
+    -1
+  ],
+  "roughnessMap": "1b9f955d-1212-49f0-b9de-76d025c187b3",
+  "envMapIntensity": 1,
+  "reflectivity": 0.49999999999999983,
+  "transmission": 0,
+  "thickness": 0,
+  "attenuationDistance": 0,
+  "attenuationColor": 16777215,
+  "side": 2,
+  "depthFunc": 3,
+  "depthTest": true,
+  "depthWrite": true,
+  "colorWrite": true,
+  "stencilWrite": false,
+  "stencilWriteMask": 255,
+  "stencilFunc": 519,
+  "stencilRef": 0,
+  "stencilFuncMask": 255,
+  "stencilFail": 7680,
+  "stencilZFail": 7680,
+  "stencilZPass": 7680,
+  "fog": false,
+  "userData": {
+    "_isAnisotropic": false,
+    "_anisotropyFactor": -0.1963382737576287,
+    "_anisotropyNoise": 0,
+    "_anisotropyDirectionMode": "DIRECTION",
+    "_58b5d28e-6d40-449d-854d-895eedfd9b45_version": 7,
+    "_triplanarMapping": {
+      "enable": true,
+      "scaleFactor": 2,
+      "blendFactor": 1,
+      "offsetFactor": 0
+    },
+    "_bf8c21ed-c1ee-4d1f-8af1-5f2653332878_version": 143,
+    "_1c31db21-4e83-4890-957f-e165cf8e2da6_version": 6,
+    "uuid": "02b3a7ea-f483-4373-967c-4cf209dc7b84"
+  },
+  "textures": [
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "79189c96-2f79-4148-937f-04174472217d",
+      "name": "",
+      "image": "df0a9705-a57c-492a-a1ef-91fed72b503f",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1000
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb-linear",
+      "encoding": 3000,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": true,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/brushed_3_normal_84e2ca92ac.jpg"
+      }
+    },
+    {
+      "metadata": {
+        "version": 4.6,
+        "type": "Texture",
+        "generator": "Texture.toJSON"
+      },
+      "uuid": "1b9f955d-1212-49f0-b9de-76d025c187b3",
+      "name": "",
+      "image": "fb4c1b1e-cf88-47ca-b1a0-49cdf714257b",
+      "mapping": 300,
+      "channel": 0,
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "center": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrap": [
+        1000,
+        1000
+      ],
+      "format": 1023,
+      "internalFormat": null,
+      "type": 1009,
+      "colorSpace": "srgb-linear",
+      "encoding": 3000,
+      "minFilter": 1008,
+      "magFilter": 1006,
+      "anisotropy": 1,
+      "flipY": true,
+      "generateMipmaps": true,
+      "premultiplyAlpha": false,
+      "unpackAlignment": 4,
+      "userData": {
+        "rootPath": "https://packs.ijewel3d.com/files/brushed_3_rough_7d1ba539dc.jpg"
+      }
+    }
+  ],
+  "images": []
+}

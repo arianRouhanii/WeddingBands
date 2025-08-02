@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "version": 4.6,
+    "type": "DiamondMaterial",
+    "generator": "DiamondMaterial.toJSON"
+  },
+  "name": "ruby.004",
+  "uuid": "bde04c37-775e-467b-acd4-a73ab969509c",
+  "color": 9618146,
+  "envMapIntensity": 1,
+  "envMapIndex": 0,
+  "envMapRotationOffset": 0,
+  "dispersion": 1.0430812778187276e-10,
+  "squashFactor": 0.98,
+  "geometryFactor": 0.5,
+  "gammaFactor": 1,
+  "absorptionFactor": 5,
+  "reflectivity": 0.21999999999999997,
+  "refractiveIndex": 1.6600000953674316,
+  "rayBounces": 5,
+  "diamondOrientedEnvMap": 0,
+  "boostFactors": {
+    "x": 1,
+    "y": 1,
+    "z": 1.2,
+    "isVector3": true
+  },
+  "transmission": 0,
+  "isDiamondMaterialParameters": true,
+  "type": "DiamondMaterial",
+  "userData": {
+    "separateEnvMapIntensity": true,
+    "_baseMaterial": "c809f883-9763-4771-acfc-83a44fcdb77d",
+    "_thinFilmLayer": {
+      "hasThinFilm": false,
+      "baseLayerFactors": [
+        0,
+        0.63,
+        1,
+        0.9
+      ],
+      "noiseLayerFactors": [
+        0.7599999999999999,
+        0.5,
+        0.9,
+        0.7
+      ],
+      "colorNoiseParams": [
+        0.5,
+        0.5,
+        0.5,
+        0.7
+      ],
+      "filmFactor": 0.5355908164169844
+    },
+    "uuid": "bde04c37-775e-467b-acd4-a73ab969509c"
+  }
+}
