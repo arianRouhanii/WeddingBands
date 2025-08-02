@@ -6,7 +6,7 @@ import TabPanel from './components/TabPanel'
 
 export default function Editor() {
   const [selectedOption, setSelectedOption] = useState<
-    'Enviroment' | 'GemEnv' | 'Background' | 'Scene' | 'ModelStage' | 'Ground' | 'Poses' | 'Export' | 'Branding' | 'Advanced'
+    | 'Metal' | 'Gems' | 'Ceramics' | 'Pearls' | 'Enviroment' | 'GemEnv' | 'Background' | 'Scene' | 'ModelStage' | 'Ground' | 'Poses' | 'Export' | 'Branding' | 'Advanced'
   >('Enviroment')
 
   return (
