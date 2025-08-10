@@ -5,8 +5,8 @@ import TabPanel from './components/TabPanel'
 
 export default function Editor() {
   const [selectedOption, setSelectedOption] = useState<
-    | 'Metal' | 'Gems' | 'Ceramics' | 'Pearls' | 'Enviroment' | 'GemEnv' | 'Background' | 'Scene' | 'ModelStage' | 'Ground' | 'Poses' | 'Export' | 'Branding' | 'Advanced' | 'ProjectSettings' | null
-  >(null)
+    | 'Metal' | 'Gems' | 'Ceramics' | 'Pearls' | 'Enviroment' | 'GemEnv' | 'Background' | 'Scene' | 'ModelStage' | 'Ground' | 'Poses' | 'Export' | 'Branding' | 'Advanced' | 'Sidebar' | null
+  >('Metal')
 
   return (
     <main className="text-[#06213D] h-[100vh] text-xs hidden xl:flex flex-col bg-[#EBEBEB]">
