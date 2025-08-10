@@ -49,8 +49,7 @@ const ceramicImages = [
 export default function TabCeramics() {
         const [selectedIndex, setSelectedIndex] = useState<number | null>(null)
     return (
-        <div className="flex w-full p-2 items-center flex-col gap-5">
-            <p className="font-bold text-sm text-center">Ceramics</p>
+        <div className="flex w-full py-2 items-center flex-col gap-5">
             <div className="flex flex-wrap justify-center gap-2">
                 <label htmlFor="add">
                     <input type="file" id='add' accept='.pmat' className='hidden' />

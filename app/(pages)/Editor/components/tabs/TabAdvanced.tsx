@@ -17,8 +17,7 @@ export default function TabAdvanced() {
   const rangeClass = 'w-full h-3.5 appearance-none bg-gray-300 rounded-full relative overflow-hidden ' + '[&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3.5 [&::-webkit-slider-thumb]:h-3.5 ' + '[&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-white [&::-webkit-slider-thumb]:border ' + '[&::-webkit-slider-thumb]:border-blue-400 [&::-webkit-slider-thumb]:cursor-pointer ' 
 
   return (
-    <div className="flex w-full p-2 flex-col gap-5">
-      <p className="font-bold text-sm text-center">Advanced</p>
+    <div className="flex w-full py-2 flex-col gap-5">
       <div className="flex flex-col gap-2">
         <div className="flex flex-row justify-between">
           <p>Env Rotation</p>

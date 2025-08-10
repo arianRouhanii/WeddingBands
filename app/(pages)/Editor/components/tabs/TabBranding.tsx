@@ -63,8 +63,7 @@ export default function TabBranding() {
     )
   }
   return (
-    <div className="flex w-full p-2 flex-col gap-5">
-      <p className="font-bold text-sm text-center">Branding</p>
+    <div className="flex w-full py-2 flex-col gap-5">
       <div className="flex flex-col gap-2">
         <p>Branding Logo</p>
         <div className="flex flex-row gap-2 pb-5">
@@ -101,13 +100,13 @@ export default function TabBranding() {
         </select>
         <p>Size</p>
         <div className="flex flex-row gap-2">
-          <input type="number" disabled={!isChecked} className={`outline-0 border border-gray-300 w-1/2 bg-white rounded-sm px-2 ${!isChecked && 'opacity-50'}`} />
-          <input type="number" disabled={!isChecked} className={`outline-0 border border-gray-300 w-1/2 bg-white rounded-sm px-2 ${!isChecked && 'opacity-50'}`} />
+          <input type="number" disabled={!isChecked} className={`outline-0 border border-gray-300 w-1/2 bg-white rounded-sm px-2 py-1 ${!isChecked && 'opacity-50'}`} />
+          <input type="number" disabled={!isChecked} className={`outline-0 border border-gray-300 w-1/2 bg-white rounded-sm px-2 py-1 ${!isChecked && 'opacity-50'}`} />
         </div>
         <p>Position</p>
         <div className="flex flex-row gap-2">
-          <input type="number" disabled={!isChecked} className={`outline-0 border border-gray-300 w-1/2 bg-white rounded-sm px-2 ${!isChecked && 'opacity-50'}`} />
-          <input type="number" disabled={!isChecked} className={`outline-0 border border-gray-300 w-1/2 bg-white rounded-sm px-2 ${!isChecked && 'opacity-50'}`} />
+          <input type="number" disabled={!isChecked} className={`outline-0 border border-gray-300 w-1/2 bg-white rounded-sm px-2 py-1 ${!isChecked && 'opacity-50'}`} />
+          <input type="number" disabled={!isChecked} className={`outline-0 border border-gray-300 w-1/2 bg-white rounded-sm px-2 py-1 ${!isChecked && 'opacity-50'}`} />
         </div>
       </div>
     </div>
