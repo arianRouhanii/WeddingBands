@@ -1,5 +1,5 @@
 'use client'
-import React, { JSX } from 'react'
+import React, { JSX, useState, useRef, useEffect } from 'react'
 import TabMetal from './tabs/TabMetal'
 import TabGems from './tabs/TabGems'
 import TabCeramics from './tabs/TabCeramics'
@@ -135,23 +135,80 @@ const renderContent = (id: TabOption) => {
 }
 
 export default function TabPanel({ selectedOption, setSelectedOption }: TabPanelProps) {
+  const currentLabel = tabIcons.find(tab => tab.id === selectedOption)?.label || ''
+
+  const scrollRef = useRef<HTMLDivElement>(null)
+  const [showTopFade, setShowTopFade] = useState(false)
+  const [showBottomFade, setShowBottomFade] = useState(false)
+
+  const checkScroll = () => {
+    const el = scrollRef.current
+    if (!el) return
+    const { scrollTop, scrollHeight, clientHeight } = el
+    setShowTopFade(scrollTop > 0)
+    setShowBottomFade(scrollTop + clientHeight < scrollHeight)
+  }
+
+  useEffect(() => {
+    checkScroll()
+    const el = scrollRef.current
+    if (!el) return
+    el.addEventListener('scroll', checkScroll)
+    window.addEventListener('resize', checkScroll)
+    return () => {
+      el.removeEventListener('scroll', checkScroll)
+      window.removeEventListener('resize', checkScroll)
+    }
+  }, [])
+
   return (
-    <div className="flex flex-col h-[85vh] gap-2 overflow-y-scroll">
-      <div className="w-full justify-between grid grid-cols-5 gap-5 items-start  border-gray-300">
-        {tabIcons.map(({ id }) => (
-          <button
-            key={id}
-            onClick={() => setSelectedOption(id)}
-            className={`p-1 flex items-center justify-center ${
-              selectedOption === id ? '' : ''
-            }`}
-          >
-            {getIcon(id, selectedOption === id)}
-          </button>
-        ))}
+    <div className="flex flex-col h-[85vh] gap-2 border border-gray-300 rounded-lg p-2 overflow-hidden">
+      <div className="w-full justify-between grid grid-cols-4 gap-2 items-start border-gray-300">
+        {tabIcons.map(({ id, label }, idx) => {
+          const isRightColumn = (idx + 1) % 4 === 0 
+          const isNearRightColumn = (idx + 1) % 4 === 3 
+
+          const tooltipOnLeft = isRightColumn || isNearRightColumn
+
+          return (
+            <div key={id} className="relative group">
+              <button
+                onClick={() => setSelectedOption(id)}
+                className={`p-1 w-12 flex-col flex items-center aspect-square rounded-lg justify-center ${selectedOption === id ? 'bg-blue-100' : ''
+                  }`}
+              >
+                {getIcon(id, selectedOption === id)}
+                <p className="text-xs">{label.slice(0, 3)}</p>
+              </button>
+              <div
+                className={`absolute bottom-0 z-50 px-2 py-1 text-xs rounded shadow-lg bg-white text-blue-500 opacity-0 translate-y-1 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-200 delay-500 ease-out pointer-events-none whitespace-nowrap
+                  ${tooltipOnLeft
+                    ? 'right-full translate-x-1/2' 
+                    : 'left-full -translate-x-1/2'
+                  }`}
+              >
+                {label}
+              </div>
+            </div>
+          )
+        })}
       </div>
-      <div className="w-full h-7/8 flex-1 overflow-y-auto">
-        {renderContent(selectedOption)}
+
+      <hr className="text-gray-300 my-2" />
+      <p className='text-center text-md font-bold'>{currentLabel}</p>
+      <div className="relative flex-1">
+        {showTopFade && (
+          <div className="pointer-events-none absolute top-0 left-0 w-full h-6 bg-gradient-to-b from-[#EBEBEB] to-transparent z-10" />
+        )}
+        {showBottomFade && (
+          <div className="pointer-events-none absolute bottom-0 left-0 w-full h-6 bg-gradient-to-t from-[#EBEBEB] to-transparent z-10" />
+        )}
+        <div
+          ref={scrollRef}
+          className="absolute inset-0 overflow-y-auto pr-1"
+        >
+          {renderContent(selectedOption)}
+        </div>
       </div>
     </div>
   )
