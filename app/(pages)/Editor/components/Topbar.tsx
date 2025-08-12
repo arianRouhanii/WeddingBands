@@ -10,7 +10,7 @@ export default function Topbar() {
         <Image width={1000} height={1000} alt="logo" src={'/logo.png'} />
       </Link>
       <div className="w-1/8 pl-8 flex flex-row gap-2" dir="rtl">
-        <Link href={'/Dashboard'} className="bg-red-400 rounded-full w-8 h-8 aspect-square text-white justify-center flex items-center">KO</Link>
+        <Link href={'/Editor'} className="bg-red-400 rounded-full w-8 h-8 aspect-square text-white justify-center flex items-center">KO</Link>
         <div className="flex text-sm font-bold flex-row gap-0.5">
           <button className="bg-blue-400 hover:bg-blue-500 rounded-r-xl h-8 px-4 text-white">+</button>
           <button className="bg-blue-400 hover:bg-blue-500 rounded-l-xl h-8 px-5 text-white">Save</button>

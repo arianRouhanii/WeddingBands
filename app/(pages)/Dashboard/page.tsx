@@ -67,7 +67,7 @@ export default function Dashboard() {
             <input type="search" className="flex px-1 py-3 md:p-3 w-full text-xs outline-0" placeholder="Search" />
           </div>
         </div>
-        <Link href={'/Dashboard'} className="bg-red-400 rounded-full w-8 aspect-square text-white justify-center flex items-center">KO</Link>
+        <Link href={'/Dashboard'} className="bg-red-400 rounded-full w-8 h-8 aspect-square text-white justify-center flex items-center">KO</Link>
       </div>
       <div className="w-full h-11/12 flex flex-row">
         <div className="w-1/6 text-sm hidden xl:flex flex-col gap-10 p-5">
@@ -91,11 +91,43 @@ export default function Dashboard() {
             ))}
           </div>
         </div>
-        <div className="w-full xl:w-5/6 h-full bg-white rounded-4xl mr-3 px-3 py-11 md:px-9">
+        <div className="w-full xl:w-5/6 h-full bg-white rounded-4xl md:mr-3 px-3 py-11 md:px-9">
           {pageState === 1 && <HomePage setPageState={setPageState} />}
           {pageState === 2 && <Drive setPageState={setPageState} />}
           {pageState === 3 && <Trash setPageState={setPageState} />}
         </div>
+      </div>
+      <div
+        id="list"
+        className="fixed top-0 right-[150%] transition-all duration-300 h-full w-2/3 bg-white shadow-lg z-50 p-5 flex flex-col gap-5"
+      >
+        <button
+          id="listbtn2"
+          className="self-end text-xl font-bold"
+        >
+          ✕
+        </button>
+
+        <input type="file" id="addfile-mobile" className="hidden" />
+        <label htmlFor="addfile-mobile" className="bg-white cursor-pointer w-2/3 flex flex-row rounded-full gap-2 p-2">
+          <div className="bg-black rounded-full h-full aspect-square text-white flex items-center justify-center">+</div>
+          <p>Add file</p>
+        </label>
+        <hr />
+        {navItems.map((item) => (
+          <button
+            key={item.page}
+            onClick={() => {
+              setPageState(item.page);
+              document.getElementById("list")?.classList.add("right-[150%]");
+            }}
+            className={`rounded-full py-2 px-4 text-start flex flex-row items-center gap-2 transition-all duration-200
+              ${pageState === item.page ? ' shadow-lg border border-blue-950' : 'hover:shadow-lg hover:border hover:border-black'}`}
+          >
+            {item.icon}
+            <p>{item.label}</p>
+          </button>
+        ))}
       </div>
     </main>
   );

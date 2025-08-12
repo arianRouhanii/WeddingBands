@@ -26,11 +26,11 @@ export default function HomePage({ setPageState }: Stage1Props) {
             <div className="flex flex-row gap-2 md:gap-5">
                 <div className="rounded-2xl relative group aspect-square flex overflow-hidden flex-col w-1/2 md:w-1/5 xl:w-1/9  bg-[#EBEBEB]">
                     <div className=" w-full overflow-hidden"><Image alt="" src={'/Example.png'} width={1000} height={1000}></Image></div>
-                    <p className="font-bold p-2 absolute bottom-[-50] group-hover:bottom-0 right-0 left-0 text-white text-center bg-[#06213D]">file name</p>
+                    <p className="font-bold p-2 md:absolute bottom-[-50] group-hover:bottom-0 right-0 left-0 text-white text-center bg-[#06213D]">file name</p>
                 </div>
                 <div className="rounded-2xl relative group aspect-square flex overflow-hidden flex-col w-1/2 md:w-1/5 xl:w-1/9  bg-[#EBEBEB]">
                     <div className=" w-full overflow-hidden"><Image alt="" src={'/Example.png'} width={1000} height={1000}></Image></div>
-                    <p className="font-bold p-2 absolute bottom-[-50] group-hover:bottom-0 right-0 left-0 text-white text-center bg-[#06213D]">file name</p>
+                    <p className="font-bold p-2 md:absolute bottom-[-50] group-hover:bottom-0 right-0 left-0 text-white text-center bg-[#06213D]">file name</p>
                 </div>
             </div>
         </div>
